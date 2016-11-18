@@ -15,7 +15,7 @@ The accuracy obtained via transfer learning using Google's Inception-v3 model wa
 
 You can use this [CodeLab](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/?utm_campaign=chrome_series_machinelearning_063016&utm_source=gdev&utm_medium=yt-desc#0) by Google as a guide. Also this [tutorial](https://www.tensorflow.org/versions/r0.9/how_tos/image_retraining/index.html) is quite helpful.
 
-#Dataset
+##Dataset
 
 The dataset can be downloaded from [here](http://www.plant-phenotyping.org/CVPPP2014-dataset).
 The technical report included with the dataset describes the data acquisition, plant material, and environmental conditions in detail.
@@ -24,6 +24,12 @@ The technical report included with the dataset describes the data acquisition, p
 ##Requirements
 
 * [docker](https://www.docker.com/products/docker-toolbox)
+
+##Usage 
+
+1. Start the docker image `docker run -it -v ~/projects/tf_files/:/tf_files/ gcr.io/tensorflow/tensorflow:latest-devel`
+
+2. Run the label_image script to label the image. `python /tf_files/label_image.py <path_to_file>`
 
 <hr>
 
