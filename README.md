@@ -1,10 +1,12 @@
 <hr>
-# Link to the Publication:
+
+## Link to the Publication:
 
 [IJARCET-VOL-5-ISSUE-11-2664-2669.pdf](http://ijarcet.org/wp-content/uploads/IJARCET-VOL-5-ISSUE-11-2664-2669.pdf)
 
 
 <hr>
+
 # Classifying Plant types using Transfer Learning
 
 We intend to perform image segmentation on the plant phenotyping dataset. The dataset contains images(rgb coloured and masked labels) of 3 different classes of plants(1 and 2 : both consisting of top-view time-lapse images of Arabidopsis thaliana rosettes; and 3 : Tobacco plants).
